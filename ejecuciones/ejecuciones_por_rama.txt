@@ -1,0 +1,10 @@
+=== ¿Cuál es la capital de Francia? ===
+  Camino: START -> chatbot -> END  (1 nodos ejecutados)
+  Respuesta: La capital de Francia es París.
+
+=== ¿En qué estado está el pedido 5678? ===
+  chatbot -> pide consulta_pedido({'id_pedido': '5678'})
+  tools   -> 'enviado, entrega estimada el viernes'
+  Camino: START -> chatbot -> tools -> chatbot -> END  (3 nodos ejecutados)
+  Respuesta: El estado del pedido 5678 es "enviado" y la entrega está estimada para el viernes.
+
